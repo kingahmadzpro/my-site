@@ -3,6 +3,8 @@ import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
+import phpicon from "../../assets/icons/phpicon.svg";
+import sqlicon from "../../assets/icons/sqlicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
@@ -75,6 +77,8 @@ export const projectsData = [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
+      { name: "Php", icon: phpicon },
+      { name: "SQL", icon: sqlicon },
       { name: "Figma", icon: figmaicon },
     ],
     image: royalrideservicesMockup,
@@ -170,6 +174,12 @@ export const skillsDataWeb = [
         hash: "#JavaScript",
         icon: javascripticon,
         color: "#F7DF1E",
+      },
+      {
+        title: "Php",
+        hash: "#Php",
+        icon: phpicon,
+        color: "#474A8A",
       },
       {
         title: "TypeScript",
